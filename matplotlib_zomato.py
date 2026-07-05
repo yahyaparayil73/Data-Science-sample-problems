@@ -19,7 +19,8 @@ print(df.head())
 # plt.xlabel("types of dining")
 # plt.show()
 
-sns.boxplot(x=df['online_order'],y=df['rating'])
-plt.show()
+# sns.boxplot(x=df['online_order'],y=df['rating'])
+# plt.show()
 
-
+plt.bar(x=df["listed_in"])
+plt.show()  
