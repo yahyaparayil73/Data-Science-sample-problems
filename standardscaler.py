@@ -20,6 +20,7 @@ scaled_data = scaler.fit_transform(df)
 # print(scaled_data)
 
 
+
 scaled_df = pd.DataFrame(scaled_data,columns = df.columns)                      
 
 # print(scaled_df)

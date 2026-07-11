@@ -17,6 +17,6 @@ for col in df.columns:
 
         df = pd.get_dummies(df, columns=[col])
 
-print(df.head())
+print(df.head())        
 
 # print(df.dtypes)
