@@ -9,9 +9,11 @@ for i in range(len(a)):
         if a[i] % j == 0:
             flag = 1
             break
-    if flag == 0:
-        pos+=1   
-        a[i-pos] = a[i]
+    if flag == 0:   
+        temp = a[pos]
+        a[pos] = a[i]
+        a[i] = temp
+        pos+=1
 print(a)
 
 
