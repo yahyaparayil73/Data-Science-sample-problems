@@ -1,4 +1,4 @@
-a = [23,43,65,78,11,17]
+a = [4, 7, 10, 3, 8, 5]
 n = len(a)
 for i in range(n):
     for j in range(2,a[i]):
@@ -6,3 +6,6 @@ for i in range(n):
             a[i]  = 0    
 
 print(a)
+
+
+
