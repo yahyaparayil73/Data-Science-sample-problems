@@ -46,9 +46,11 @@ while True:
     if choice == 1:
         habits_display ()
         new_habit = input('Enter the habit to be added :')
-        habits =habits.append(new_habit)
+        habits.append(new_habit)
 
         print('Here is your updated Habit Tracker :')
+        habits_display ()
+    if choice == 2 :
         habits_display ()
 
     if choice == 8 :
