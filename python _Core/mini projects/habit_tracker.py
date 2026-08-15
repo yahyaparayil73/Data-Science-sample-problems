@@ -30,6 +30,8 @@ habits = ['Workout','Meditation','Prayer','Quran','Reading','Writing','Walking',
 
 
 while True:
+    print('* ' *15)
+    print("Welcome to Yahya's habit tracker  ")
     print("""
     1. Add Habit
     2. View Habits
@@ -52,7 +54,11 @@ while True:
         habits_display ()
     if choice == 2 :
         habits_display ()
-
+    if choice == 3 :
+        habits_display ()
+        completed = int(input('Enter the habit you completed :'))
+        selected_habit = habits[completed-1]
+        print(selected_habit)
     if choice == 8 :
         break
 
