@@ -27,6 +27,7 @@ def habits_display ():
 
 
 habits = ['Workout','Meditation','Prayer','Quran','Reading','Writing','Walking','English']
+completed_habits = []
 
 
 while True:
@@ -52,13 +53,19 @@ while True:
 
         print('Here is your updated Habit Tracker :')
         habits_display ()
+
     if choice == 2 :
         habits_display ()
+
     if choice == 3 :
         habits_display ()
         completed = int(input('Enter the habit you completed :'))
         selected_habit = habits[completed-1]
-        print(selected_habit)
+        completed_habits.append(selected_habit)
+        print('Recorded Successfully !')
+
+    if choice == 4 :
+    
     if choice == 8 :
         break
 
