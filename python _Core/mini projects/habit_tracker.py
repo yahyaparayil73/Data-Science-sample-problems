@@ -65,6 +65,14 @@ while True:
         print('Recorded Successfully !')
 
     if choice == 4 :
+        print('Todays Progress :')
+        print()
+        for habit in completed_habits:
+            print(habit)
+
+    if choice == 5 :
+        count_of_completed = len(completed_habits)
+        print(f'{count_of_completed} habits completed today')
     
     if choice == 8 :
         break
