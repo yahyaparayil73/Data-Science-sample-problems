@@ -1,5 +1,9 @@
-class my_func():
-    print('main function')
+class Student:
 
-class sub_func():
-    
+    def study(self):
+        print("I am studying Python")
+
+
+student1 = Student()
+
+student1.study()
