@@ -1,8 +1,8 @@
 class hikma:
-    def employee(self):
+    def employee(self,name,age,occupation):
         print('the employee details')
 
-yahya = hikma()
+employee = hikma()
 
 yahya.employee()
     
