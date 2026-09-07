@@ -1,18 +1,15 @@
-class Hikma():
-        def name(self):
-            print('Hi the name is yahya')
+from abc import ABC, abstractmethod
 
+class Animal(ABC):
 
-syed = Hikma()
+    @abstractmethod
+    def make_sound(self):
+        pass
 
-syed.name()
+class Wild_Animals(Animal):
+    def make_sound(self,name):
+        print(f'{name} Roars')
 
+Lion = Wild_Animals()
+Lion.make_sound('Yahya')
 
-
-# from abc import ABC, abstractmethod
-
-# class Animal(ABC):
-
-#     @abstractmethod
-#     def make_sound(self):
-#         pass
